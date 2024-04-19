@@ -38,7 +38,8 @@
 #define INDEXER_MOTOR_PORT -99
 #define FLYWHEEL_PORT 99
 #define CATAPULT_PORT 16
-
+#define DRFB_MOTOR1 2
+#define DRFB_MOTOR2 9
 
 // ************* Sensor Ports *************
 #define IMU_PORT_1 89
@@ -69,8 +70,8 @@ extern Flywheel flywheel;
 // ************* Motor Objects *************
 inline pros::Motor intake(INTAKE_PORT, pros::E_MOTOR_GEAR_600);
 inline pros::Motor indexer_motor(INDEXER_MOTOR_PORT, pros::E_MOTOR_GEAR_600);
-
-
+inline pros::Motor DRFB1(DRFB_MOTOR1,pros::E_MOTOR_GEAR_200);
+inline pros::Motor DRFB2(DRFB_MOTOR2,pros::E_MOTOR_GEAR_200);
 // ************* Piston Objects *************
 inline pros::ADIDigitalOut indexer_piston(INDEXER_PISTON_PORT);
 inline pros::ADIDigitalOut expansion_piston(EXPANSION_PORT);

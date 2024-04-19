@@ -45,6 +45,7 @@
 #include "2616Lib/subsystems/indexer.hpp"
 #include "2616Lib/subsystems/intake.hpp"
 #include "2616Lib/subsystems/pistons.hpp"
+#include "2616Lib/subsystems/others.hpp"
 
 #include "2616Lib/util/points/path_point.hpp"
 #include "2616Lib/util/points/point.hpp"

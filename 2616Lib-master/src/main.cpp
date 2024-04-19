@@ -255,7 +255,7 @@ void opcontrol() {
     //todo add docs about subsystems and adding to .cpp / .hpp
     control_intake();
     control_indexer();
-
+    control_DRFB();
     //DO NOT CHANGE THIS LINE!
     pros::delay(Util::DELAY_TIME);
   }
